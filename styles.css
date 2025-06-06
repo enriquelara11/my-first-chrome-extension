@@ -1,0 +1,94 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+/* Header styling */
+.header {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Button styling */
+.button {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 10px 20px 5px; /* Adjusted bottom padding */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    line-height: 1; /* Adjusted line height */
+}
+
+.button p {
+    margin: 0; /* Remove default margins */
+}
+
+/* Input field styling */
+.input-field {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Folder and Prompt list styling */
+.folder-list, .prompt-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.folder-item, .prompt-item {
+    padding: 10px;
+    border: none;
+}
+
+/* New CSS classes */
+.list-container {
+    width: 300px;
+    background-color: #FEE5AC;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFC482;
+    padding: 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.message {
+    flex-grow: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    color: #888;
+}
+
+.emoji {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.arrow {
+    font-weight: bold;
+    font-size: 24px;
+}
